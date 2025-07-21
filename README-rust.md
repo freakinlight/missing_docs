@@ -126,18 +126,4 @@ or
 z_sub_shm -k demo/example/**
 ```
 
-### z_queryable_with_channels
 
-Declares a queryable that responds using Zenoh channels, supporting multiple simultaneous replies over the same query.
-
-Typical usage:
-
-```bash
-z_queryable_with_channels
-```
-
-or
-
-```bash
-z_queryable_with_channels -k demo/example/queryable -p 'Channel reply'
-```
