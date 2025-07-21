@@ -16,7 +16,7 @@ z_delete -k demo/example/delete
 
 ### z_formats
 
-Demonstrates the use of different encoding formats in Zenoh for serializing and deserializing data.
+Explores how Zenoh formats key expressions using different formatting options.
 
 Typical usage:
 
